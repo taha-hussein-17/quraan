@@ -1,13 +1,112 @@
 body {
+  font-family: 'Arial', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background: #00796b;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.navbar .container{
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+  align-items: center;
+  direction: rtl;
+  justify-content: center;
+}
+
+.navbar .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .nav-link {
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #b2dfdb;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #004d40;
+  color: white;
+}
+
+.content {
+  min-height: calc(100vh - 120px);
+  padding: 2rem;
+}
+
+.home {
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #00796b;
+}
+
+.surah-list {
+  list-style: none;
+  padding: 0;
+}
+
+.surah-item {
+  margin: 0.5rem 0;
+}
+
+.surah-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #00796b;
+  transition: color 0.3s;
+}
+
+.surah-link:hover {
+  color: #004d40;
+}
+
+.catalogue {
+  text-align: center;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+}
+
+.category-item {
+  margin: 0.5rem 0;
+}
+
+.category-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #00796b;
+  transition: color 0.3s;
+}
+
+.category-link:hover {
+  color: #004d40;
+}
+
+.surah .title {
+  font-size: 2rem;
+  color: #004d40;
+  margin-bottom: 1rem;
 }
